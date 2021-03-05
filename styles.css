@@ -30,45 +30,45 @@ h2{
 .first-image{
   filter: grayscale(100%);
   background-repeat: no-repeat;
+  background-size:cover;
 }
 .flex-container{
   color: white;
   display: flex;
-  position: absolute;
-  margin-top: 10rem;
+  position: relative;
+  margin-top: 8rem;
+  text-align: center;
 }
 .flex-item{
   color: white;
   font-size: 1rem;
-}
-.flex-item > p{
   margin-left: 4.5rem;
-  margin-right: 4.5rem;
+  margin-right: 2.5rem;
+}
+.flex-item-text{
+  width: 50rem;
+  margin-left: 6.5rem;
+  margin-right: 6.5rem;
+  justify-items: center;
   text-align: center;
 }
-.flex-item > h2{
+.flex-item-text > p{
+  color: white;
+  font-size: 1rem;
+  justify-items: center;
+  text-align: center;
+
+}
+.flex-item-text > h2{
   margin-left: 4.5rem;
   margin-right: 4.5rem;
+
   text-align: center;
 }
 .btn{
   text-align: center;
+  background-color: black;
 }
-
-/* .bbtn-outline-secondary{
-  background-color: transparent;
-  display: flex;
-  align-items: center;
-}
-.center > btn-outline-secondary{
-  display:flex;
-  flex-wrap: nowrap;
-  align-content: center;
-  position: relative;
-  text-align: center;
-  justify-content: center;
-} */
-
 
 /* THREE COLUMNS AFTER BIG IMAGE */
 .homewidget{
@@ -133,7 +133,6 @@ h2{
   padding-top: 3rem;
 }
 .line{
-  /* background-color: black; */
   overflow: hidden;
   border-style: inset;
   border-width: 1px;
@@ -215,7 +214,6 @@ h2{
 }
 
 /* FOOTER */
-
 .footer{
   background-color: darkgray;
 }
@@ -235,18 +233,25 @@ h2{
   font-weight: bold;
 }
 .tittle{
-  margin-left: 2rem;
-}
-.column3 > div > h6{
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 1em;
   width: 17rem;
 }
-.column3 > div > a{
-  width: 16rem;
-  color: black;
+.column3 > div > h6{
+  margin-left: 1rem;
+  margin-right: 3rem;
+  width: 17rem;
+  text-align: justify;
 }
-
+.column3 > div > a{
+  width: 17rem;
+  color: black;
+  width: 17rem;
+}
+.new {
+  border-top: 1px dashed;
+  width: 17rem;
+  margin-right: 1rem;
+}
 
 /* COPRIGHTS */
 .copyright{
@@ -257,9 +262,4 @@ h2{
   margin-right: 2rem;
   font-size: 0.7rem;
   font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-}
-.new {
-  border-top: 1px dashed;
-  width: 16rem;
-  margin-right: 1rem;
 }
