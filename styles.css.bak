@@ -1,0 +1,134 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 10px;
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+/* MENU NAV GENERAL RULES*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  background-color: blue;
+  color: white;
+  height: 8vh;
+}
+.nav-link {
+  display: flex;
+}
+/* FIRST BIG IMAGE GENERAL RULES*/
+.first-image{
+  filter: grayscale(100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image:url(img/slider-1.jpg);
+}
+
+
+/* <!-- THREE COLUMNS AFTER BIG IMAGE --> */
+.container {
+  background: #ed564b;
+  display:flex;
+  }
+.row{
+  display:flex;
+  background-size: cover;
+  background-color: #ed564b;
+}
+
+/* <!-- FIRST PICTURE IN GRID AND TEXT --> */
+
+  .content{
+    background-color: white;
+  }
+
+
+
+/* MOBILE PHONES */
+@media only screen and (max-width: 768px) {
+  nav{
+    height:  5rem;
+
+  }
+  .navbar-brand{
+    font-size: 3rem;
+  }
+  .nav-item{
+    font-size: 3rem;
+    background-color: blue;
+  }
+  /* FIRST BIG IMAGE */
+  .first-image{
+    background-position: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .flex-item-text h2{
+    display: flex;
+    font-size: 3rem;
+    justify-content: justify;
+    margin-left:4rem;
+    margin-right:4rem;
+  }
+    .flex-item-text > p{
+      display: flex;
+      font-size: 1.5rem;
+      text-align: justify;
+      margin-left:4rem;
+      margin-right:4rem;
+    }
+    .flex-item{
+      display: flex;
+      justify-items: space-between;
+      margin-left: 2rem;
+      margin-right:2rem;
+    }
+    .flex-prev{
+      font-size: 6rem;
+      background-color: blue;
+    }
+    .flex-next{
+      font-size: 6rem;
+      background-color: blue;
+    }
+
+    /*  THREE COLUMNS AFTER BIG IMAGE */
+    .container {
+      background: #ed564b;
+      width:1300px;;
+      border-bottom: 5px solid #f96b61;
+
+      display: flex;
+      justify-content: space-between;
+      }
+    .row{
+      margin-left: 2rem;
+      margin-right: 2rem;
+      justify-content: space-between;
+    }
+    .homewidget{
+      float: left;
+      width: 33.33%;
+      padding: 10px;
+    }
+    .homewidget > p{
+      font-size: 2rem;
+    }
+
+    .homewidget > h3{
+      font-size: 3rem;
+    }
+    span{
+      font-size: 3rem;
+      align-self: center;
+    }
+
+
+
+}

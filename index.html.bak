@@ -53,25 +53,25 @@
   </nav>
 
 <!-- FIRST BIG IMAGE-->
-  <div class="d-flex first-image">
-    <div class="flex-item">
-      <a class="flex-prev" href="#"><i class="fa fa-angle-left"></i></a>
+    <div class="first-image">
+      <div class="flex-item">
+        <a class="flex-prev" href="#"><i class="fa fa-angle-left"></i></a>
+      </div>
+      <div class = "flex-item-text">
+        <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM
+        </h2>
+        <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
+        </p>
+        <button type="button" class="btn btn-primary">Read More</button>
+      </div>
+      <div class="flex-item">
+        <a class="flex-next" href="#"><i class="fa fa-angle-right"></i></a><br><br>
+      </div>
     </div>
-    <div class = "flex-item-text">
-      <h2>ETIAM MAURIS TORTOR, PHARETRA QUIS LOBORTIS IN, PHARETRA IN DIAM
-      </h2>
-      <p>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]
-      </p>
-      <button type="button" class="btn btn-primary">Read More</button>
-    </div>
-    <div class="flex-item">
-      <a class="flex-next" href="#"><i class="fa fa-angle-right"></i></a><br><br>
-    </div>
-  </div>
 
   <!-- THREE COLUMNS AFTER BIG IMAGE -->
-    <div class="flex-container">
-      <div class="flex-row">
+    <div class="container">
+      <div class="row">
         <div class="col-sm-4 homewidget">
           <span><i class="fa fa-star"></i></span><br><br>
             <h3> Web design</h3>
@@ -90,9 +90,11 @@
       </div>
     </div>
 
+
+
 <!-- FIRST PICTURE IN GRID AND TEXT -->
 <section class="content">
-  <div class="text-img">
+  <div class="text">
     <div >
       <h3>LATESTS PROJECTS</h3>
       <p>FEW OF THE LATEST PORTFOLIO ITEMS</p>
@@ -100,31 +102,28 @@
 
         <!--LINE AFTER TITTLE-->
      <hr class="line"><br><br>
-
-     <!-- FIRST PICTURE IN GRID AND TEXT -->
-
-    <div class="img-fluid">
+    <div class="column">
       <div>
-        <img src="img/project-1.jpg" alt="Responsive image" class="rounded">
+        <img src="img/project-1.jpg" alt="" class="rounded">
         <p>Nunc libero elit, iaculis nec augue non</p>
       </div>
       <div>
-        <img src="img/project-2.jpg" alt="Responsive image" class="rounded">
+        <img src="img/project-2.jpg" alt="" class="rounded">
         <p>Phasellus aliquet iaculis neque accumsan <br> aliquam.</p>
       </div>
       <div>
-        <img src="img/project-3.jpg" alt="Responsive image" class="rounded">
+        <img src="img/project-3.jpg" alt="" class="rounded">
         <p>Vivamus blandit ipsum sed arcu euismod</p>
       </div>
       <div>
-        <img src="img/project-4.jpg" alt="Responsive image" class="rounded">
+        <img src="img/project-4.jpg" alt="" class="rounded">
         <p>Curabitur auctor dolor risus, vitae<br> pellentesque arcu consequat</p>
       </div>
     </div>
   </div>
 
     <!-- SECOND PICTURE IN GRID AND TEXT -->
-    <div class="image-row">
+    <div class="row-3">
       <div >
         <h3>LATESTS ARTICLES</h3>
         <p>LATEST POSTS FROM THE BLOG</p>
@@ -133,30 +132,30 @@
     <!--LINE AFTER TITTLE-->
       <hr class="line"><br><br>
 
-      <div class="column">
+      <div class="column2">
         <div>
-          <img src="img/slider-1.jpg" alt="Responsive image" class="rounded">
+          <img src="img/slider-1.jpg" alt="" class="rounded">
           <p>Etiam mauris tortor, pharetra quis lobortis in, pharetra in diam</p>
           <h3>POSTED ON AUGUST 19, 2013 BY ADMIN</h3>
           <h6>Duis tempus leo vitae ipsum viverra, blandit condimentum sapien porttitor. Duis porttitor sed metus eget mollis. Curabitur bibendum imperdiet tortor, ut pulvinar purus elementum nec. Suspendisse at erat luctus; hendrerit sapien sed, consectetur erat. Maecenas dignissim suscipit orci at molestie. Aenean fringilla dolor vitae lacus lacinia eleifend. Suspendisse et libero nunc. Etiam mauris tortor, pharetra […]</h6>
         </div>
 
         <div>
-          <img src="img/slider-2.jpg" alt="Responsive image" class="rounded">
+          <img src="img/slider-2.jpg" alt="" class="rounded">
           <p>Falauris sollicitudin quis dolor venenatis facilisis</p>
           <h3>POSTED ON AUGUST 19, 2013 BY ADMIN</h3>
           <h6>Donec sed dolor eu augue dignissim pellentesque. Fusce semper tortor ornare, luctus sem in, dictum leo. Ut at congue quam! Maecenas luctus interdum odio, eget volutpat velit hendrerit eu? Suspendisse at magna ut sem blandit hendrerit non ut magna. Cras quis porta dolor. Aliquam erat volutpat. Phasellus fringilla feugiat libero nec volutpat. Maecenas fermentum bibendum […] </h6>
         </div>
 
         <div>
-          <img src="img/slider-3.jpg" alt="Responsive image" class="rounded">
+          <img src="img/slider-3.jpg" alt="" class="rounded">
           <p>Suspendisse ornare, felis feugiat suscipit pharetra</p>
           <h3>POSTED ON AUGUST 19, 2013 BY ADMIN</h3>
           <h6>Quisque sit amet sagittis justo. Suspendisse ornare, felis feugiat suscipit pharetra, lorem est viverra odio; tristique tristique diam tellus id tellus. In consectetur aliquet tristique. Curabitur imperdiet leo in nisl consectetur mattis. Quisque bibendum, mauris vitae suscipit ornare; est nibh elementum mauris, eu malesuada nunc magna at justo. Proin blandit id tellus non pellentesque. Mauris […] </h6>
         </div>
 
         <div>
-          <img src="img/slider-4.jpg" alt="Responsive image" class="rounded">
+          <img src="img/slider-4.jpg" alt="" class="rounded">
           <p>Festibulum purus odio, ornare non posuere</p>
           <h3>POSTED ON AUGUST 19, 2013 BY ADMIN</h3>
           <h6>Aenean quis rhoncus nisl, eget sollicitudin ipsum. Curabitur a elementum purus. Quisque vitae dui at arcu porttitor laoreet ac vitae nibh. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla facilisi. Nulla egestas at nunc at volutpat. Nullam sodales at diam vel tempor. Sed pretium, leo vel pellentesque dictum, ligula […] </h6>
@@ -170,8 +169,8 @@
   <div class="fwidgets2"></div>
 
   <!--FOTTER-->
-  <section class="flex-footer">
-    <div class="flex-content">
+  <section class="footer">
+    <div class="column3">
       <div>
         <h3 class="tittle">REVERA</h3>
         <h6 >Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum vehicula erat non congue cursus. Aenean auctor nulla quis augue dictum, sed sagittis odio varius? Aliquam nec venenatis turpis. Aenean euismod arcu vel volutpat tristique. In mattis ipsum quis magna feugiat, id tempus metus accumsan.</h6>
